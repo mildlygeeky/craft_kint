@@ -1,6 +1,8 @@
 # Kint plugin for Craft CMS
 
-Adds Kint, an in-app PHP debugger, for use in Twig and PHP.
+Adds Kint, an in-app PHP debugger, to Craft CMS for use in Twig and PHP.
+
+![Screenshot](resources/screenshots/plugin_logo.png)
 
 ## Installation
 
@@ -9,7 +11,6 @@ To install Kint, follow these steps:
 1. Download & unzip the file and place the `kint` directory into your `craft/plugins` directory
 2.  -OR- do a `git clone https://github.com/mildlygeeky/craft_kint.git` directly into your `craft/plugins` folder.  You can then update it with `git pull`
 3. Install plugin in the Craft Control Panel under Settings > Plugins
-4. The plugin folder should be named `kint` for Craft to see it.  GitHub recently started appending `-master` (the branch name) to the name of the folder for zip file downloads.
 
 Kint works on Craft 2.4.x and Craft 2.5.x.
 
