@@ -2,7 +2,7 @@
 
 Adds Kint, an in-app PHP debugger, to Craft CMS for use in Twig and PHP.
 
-![Screenshot](resources/screenshots/plugin_logo.png)
+![Screenshot](resources/screenshots/screenshot.png)
 
 ## Installation
 
