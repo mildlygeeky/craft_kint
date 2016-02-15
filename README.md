@@ -31,31 +31,31 @@ No configuration required, but you can set the theme that Kint will use within t
 
 #### d (dump)
 
-{{ craft.kint.d(someTwigVariable) }}
+`{{ craft.kint.d(someTwigVariable) }}`
 
 This is the simplest usage, and will output an interactive debugger for the variable passed in.
 
 #### dd (dump and die)
 
-{{ craft.kint.dd(someTwigVariable) }}
+`{{ craft.kint.dd(someTwigVariable) }}`
 
 This works the same way as the d (dump) command, except it will cause output to end immediately after the debugger is returned.
 
 #### s (simple dump)
 
-{{ craft.kint.s(someTwigVariable) }}
+`{{ craft.kint.s(someTwigVariable) }}`
 
 This works essentially the same way as the built-in Twig dump method, and returns a plain text debugging output.
 
 #### sd (simple dump and die)
 
-{{ craft.kint.s(someTwigVariable) }}
+`{{ craft.kint.s(someTwigVariable) }}`
 
 Same as above, but with output ending immediately after the plain text debugging output is returned.
 
 #### time (point-in-time memory usage and timestamp)
 
-{{ craft.kint.time }}
+`{{ craft.kint.time }}`
 
 Basic reporting of memory usage at the time that the command is run, as well as a timestamp. If used multiple times,
 it will also report the time since it was last called and average duration.
