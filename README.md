@@ -49,7 +49,7 @@ This works essentially the same way as the built-in Twig dump method, and return
 
 #### sd (simple dump and die)
 
-`{{ craft.kint.s(someTwigVariable) }}`
+`{{ craft.kint.sd(someTwigVariable) }}`
 
 Same as above, but with output ending immediately after the plain text debugging output is returned.
 
