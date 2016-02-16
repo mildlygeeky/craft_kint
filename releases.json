@@ -1,10 +1,19 @@
 [
     {
         "version": "1.0.0",
-        "downloadUrl": "https://github.com/mildlygeeky/craft_kint/archive/master.zip",
+        "downloadUrl": "https://github.com/mildlygeeky/craft_kint/archive/1.0.0.zip",
         "date": "2016-02-15T00:47:48.867Z",
         "notes": [
             "[Added] Initial release"
+        ]
+    },
+    {
+        "version": "1.0.1",
+        "downloadUrl": "https://github.com/mildlygeeky/craft_kint/archive/1.0.1.zip",
+        "date": "2016-02-15T21:55:00.867Z",
+        "notes": [
+            "[Fixed] Fixed plugin crashing when theme was not set",
+            "[Improved] Typo in documentation for sd method"
         ]
     }
 ]

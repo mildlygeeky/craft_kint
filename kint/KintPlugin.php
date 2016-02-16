@@ -67,9 +67,7 @@ class KintPlugin extends BasePlugin
         return array(
             'kintDisplayTheme' => array(
                 AttributeType::Mixed,
-                'default' => array(
-                    'original'
-                )
+                'default' => 'original'
             )
         );
     }
