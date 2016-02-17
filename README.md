@@ -31,31 +31,31 @@ No configuration required, but you can set the theme that Kint will use within t
 
 #### d (dump)
 
-`{{ craft.kint.d(someTwigVariable) }}`
+`{{ d(someTwigVariable) }}` or `{{ craft.kint.d(someTwigVariable) }}`
 
 This is the simplest usage, and will output an interactive debugger for the variable passed in.
 
 #### dd (dump and die)
 
-`{{ craft.kint.dd(someTwigVariable) }}`
+`{{ dd(someTwigVariable) }}` or `{{ craft.kint.dd(someTwigVariable) }}`
 
 This works the same way as the d (dump) command, except it will cause output to end immediately after the debugger is returned.
 
 #### s (simple dump)
 
-`{{ craft.kint.s(someTwigVariable) }}`
+`{{ s(someTwigVariable) }}` or `{{ craft.kint.s(someTwigVariable) }}`
 
 This works essentially the same way as the built-in Twig dump method, and returns a plain text debugging output.
 
 #### sd (simple dump and die)
 
-`{{ craft.kint.sd(someTwigVariable) }}`
+`{{ sd(someTwigVariable) }}` or `{{ craft.kint.sd(someTwigVariable) }}`
 
 Same as above, but with output ending immediately after the plain text debugging output is returned.
 
 #### time (point-in-time memory usage and timestamp)
 
-`{{ craft.kint.time }}`
+`{{ time() }}` or `{{ craft.kint.time }}`
 
 Basic reporting of memory usage at the time that the command is run, as well as a timestamp. If used multiple times,
 it will also report the time since it was last called and average duration.
@@ -80,6 +80,10 @@ one central object to keep things clean.
 
 * Fixed issue where raw JS could be shown on page if script tags with double-quotes were used
 * Removed reference to Kint's path being included below the debugger
+
+### 1.1.0 -- 2016.02.16
+
+* Added Twig functions `d`, `dd`, `s`, `sd`, and `time` for easier usage
 
 ## Credit
 
