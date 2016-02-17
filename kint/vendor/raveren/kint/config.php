@@ -3,14 +3,15 @@ isset( $GLOBALS['_kint_settings'] ) or $GLOBALS['_kint_settings'] = array();
 $_kintSettings = &$GLOBALS['_kint_settings'];
 
 
-/** @var bool if set to false, kint will become silent, same as Kint::enabled(false) or Kint::$enabled = false */
+/** @var bool if set to false, kint will become silent, same as Kint::enabled(false) or
+ * Kint::$enabled = false */
 $_kintSettings['enabled'] = true;
 
 
 /**
  * @var bool whether to display where kint was called from
  */
-$_kintSettings['displayCalledFrom'] = true;
+$_kintSettings['displayCalledFrom'] = false;
 
 
 /**
