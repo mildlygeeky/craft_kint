@@ -151,18 +151,12 @@ if ( typeof kintInitialized === 'undefined' ) {
 			if ( newWindow = window.open() ) {
 				newWindow.document.open();
 				newWindow.document.write(
-					'<html>'
-					+ '<head>'
-					+ '<title>Kint (' + new Date().toISOString() + ')</title>'
-					+ '<meta charset="utf-8">'
-					+ document.getElementsByClassName('-kint-js')[0].outerHTML
+                     document.getElementsByClassName('-kint-js')[0].outerHTML
 					+ document.getElementsByClassName('-kint-css')[0].outerHTML
-					+ '</head>'
-					+ '<body>'
 					+ '<input style="width: 100%" placeholder="Take some notes!">'
 					+ '<div class="kint">'
 					+ kintContainer.parentNode.outerHTML
-					+ '</div></body>'
+					+ '</div>'
 				);
 				newWindow.document.close();
 			}
