@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2016 Mildly Geeky
  * @link      http://www.mildlygeeky.com
  * @package   Kint
- * @since     1.0.0
+ * @since     1.0.2
  */
 
 namespace Craft;
@@ -44,7 +44,7 @@ class KintPlugin extends BasePlugin
 
     public function getVersion()
     {
-        return '1.0.1';
+        return '1.0.2';
     }
 
     public function getSchemaVersion()
