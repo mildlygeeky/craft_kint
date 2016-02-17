@@ -72,6 +72,15 @@ one central object to keep things clean.
 
 * Initial release
 
+### 1.0.1 -- 2016.02.15
+
+* Fixed issue that caused crash when a theme was not selected from settings page
+
+### 1.0.2 -- 2016.02.16
+
+* Fixed issue where raw JS could be shown on page if script tags with double-quotes were used
+* Removed reference to Kint's path being included below the debugger
+
 ## Credit
 
 * Thank you to Rokas Šleinius, the developer of Kint - he welcomes donations at [Kint's website](http://raveren.github.io/kint/)

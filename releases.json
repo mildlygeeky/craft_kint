@@ -15,5 +15,15 @@
             "[Fixed] Fixed plugin crashing when theme was not set",
             "[Improved] Typo in documentation for sd method"
         ]
+    },
+        {
+        "version": "1.0.2",
+        "downloadUrl": "https://github.com/mildlygeeky/craft_kint/archive/1.0.2.zip",
+        "date": "2016-02-16T21:55:00.867Z",
+        "notes": [
+            "[Fixed] Fixed issue where raw JS code showed on page when script tags used double-quotes (core Kint issue)",
+            "[Improved] Now does not expose path to Kint PHP scripts below debugger"
+        ]
     }
+
 ]
