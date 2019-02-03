@@ -1,4 +1,4 @@
-# Kint plugin for Craft CMS
+# Kint plugin for Craft CMS (Craft 2.x version)
 
 Adds Kint, an in-app PHP debugger, to Craft CMS for use in Twig and PHP.
 
